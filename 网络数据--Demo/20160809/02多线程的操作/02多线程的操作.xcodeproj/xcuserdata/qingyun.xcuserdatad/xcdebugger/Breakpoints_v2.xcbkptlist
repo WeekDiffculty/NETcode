@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;/NSOperation/LoadImageOperation.m"
+            timestampString = "492339104.753195"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "-main"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;/NSOperation/LoadImageOperation.m"
+            timestampString = "492339177.81139"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-main"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;/NSOperation/OperationViewController.m"
+            timestampString = "492339257.628798"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-loadImageFinish:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;/GCD/GCDViewController.m"
+            timestampString = "492405463.601866"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "-dispatchOnce"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;/GCD/GCDViewController.m"
+            timestampString = "492405463.601866"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "-dispatchOnce"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GCDViewController dispatchOnce]"
+                  moduleName = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qingyun/Desktop/Code1605/Code/%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE--Demo/201600809/02%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E6%93%8D%E4%BD%9C/02%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E6%93%8D%E4%BD%9C/GCD/GCDViewController.m"
+                  timestampString = "492405580.455631"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__33-[GCDViewController dispatchOnce]_block_invoke"
+                  moduleName = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qingyun/Desktop/Code1605/Code/%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE--Demo/201600809/02%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E6%93%8D%E4%BD%9C/02%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E6%93%8D%E4%BD%9C/GCD/GCDViewController.m"
+                  timestampString = "492405580.455733"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;/GCD/GCDViewController.m"
+            timestampString = "492405463.601866"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "-dispatchAfter"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;/GCD/GCDViewController.m"
+            timestampString = "492405483.897918"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "-globalQueue2"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;/GCD/GCDViewController.m"
+            timestampString = "492405514.03681"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "-dispatchGroup"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GCDViewController dispatchGroup]"
+                  moduleName = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qingyun/Desktop/Code1605/Code/%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE--Demo/201600809/02%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E6%93%8D%E4%BD%9C/02%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E6%93%8D%E4%BD%9C/GCD/GCDViewController.m"
+                  timestampString = "492405580.457508"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__34-[GCDViewController dispatchGroup]_block_invoke"
+                  moduleName = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qingyun/Desktop/Code1605/Code/%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE--Demo/201600809/02%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E6%93%8D%E4%BD%9C/02%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E6%93%8D%E4%BD%9C/GCD/GCDViewController.m"
+                  timestampString = "492405580.457618"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;/GCD/GCDViewController.m"
+            timestampString = "492405528.674008"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "-dispatchGroup"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x64cd;&#x4f5c;/GCD/GCDViewController.m"
+            timestampString = "492405547.089575"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "-dispatchGroup"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

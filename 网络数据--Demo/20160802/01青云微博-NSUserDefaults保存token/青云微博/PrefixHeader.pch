@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  青云微博
+//
+//  Created by qingyun on 16/7/11.
+//  Copyright © 2016年 qingyun. All rights reserved.
+//
+
+/** Color Related */
+#define QLColorWithRGB(redValue, greenValue, blueValue) ([UIColor colorWithRed:((redValue)/255.0) green:((greenValue)/255.0) blue:((blueValue)/255.0) alpha:1])
+#define QLColorRandom QLColorWithRGB(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+/** QLScreenSize */
+#define QLScreenSize [[UIScreen mainScreen] bounds].size
+#define QLScreenWidth QLScreenSize.width
+#define QLScreenHeight QLScreenSize.height
+
+/** QLDEBUG Print | M:method, L:line, C:content*/
+#ifndef QLLog
+#ifdef DEBUG
+#define QLLog(FORMAT, ...) fprintf(stderr,"M:%s|L:%d|C->%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
+#else
+#define QLLog(FORMAT, ...)
+#endif
+#endif

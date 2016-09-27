@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC69BCE31D3CCD5C00AD6C6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC69BCE21D3CCD5C00AD6C6B /* main.m */; };
+		CC69BCE61D3CCD5C00AD6C6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC69BCE51D3CCD5C00AD6C6B /* AppDelegate.m */; };
+		CC69BCE91D3CCD5C00AD6C6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC69BCE81D3CCD5C00AD6C6B /* ViewController.m */; };
+		CC69BCEC1D3CCD5C00AD6C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC69BCEA1D3CCD5C00AD6C6B /* Main.storyboard */; };
+		CC69BCEE1D3CCD5C00AD6C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC69BCED1D3CCD5C00AD6C6B /* Assets.xcassets */; };
+		CC69BCF11D3CCD5C00AD6C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC69BCEF1D3CCD5C00AD6C6B /* LaunchScreen.storyboard */; };
+		CC69BCFA1D3CD51700AD6C6B /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC69BCF91D3CD51700AD6C6B /* MyButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC69BCDE1D3CCD5C00AD6C6B /* 02触摸结合其他控件使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02触摸结合其他控件使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC69BCE21D3CCD5C00AD6C6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC69BCE41D3CCD5C00AD6C6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC69BCE51D3CCD5C00AD6C6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC69BCE71D3CCD5C00AD6C6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC69BCE81D3CCD5C00AD6C6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC69BCEB1D3CCD5C00AD6C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC69BCED1D3CCD5C00AD6C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC69BCF01D3CCD5C00AD6C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC69BCF21D3CCD5C00AD6C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC69BCF81D3CD51700AD6C6B /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		CC69BCF91D3CD51700AD6C6B /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC69BCDB1D3CCD5C00AD6C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC69BCD51D3CCD5C00AD6C6B = {
+			isa = PBXGroup;
+			children = (
+				CC69BCE01D3CCD5C00AD6C6B /* 02触摸结合其他控件使用 */,
+				CC69BCDF1D3CCD5C00AD6C6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC69BCDF1D3CCD5C00AD6C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC69BCDE1D3CCD5C00AD6C6B /* 02触摸结合其他控件使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC69BCE01D3CCD5C00AD6C6B /* 02触摸结合其他控件使用 */ = {
+			isa = PBXGroup;
+			children = (
+				CC69BCE41D3CCD5C00AD6C6B /* AppDelegate.h */,
+				CC69BCE51D3CCD5C00AD6C6B /* AppDelegate.m */,
+				CC69BCE71D3CCD5C00AD6C6B /* ViewController.h */,
+				CC69BCE81D3CCD5C00AD6C6B /* ViewController.m */,
+				CC69BCEA1D3CCD5C00AD6C6B /* Main.storyboard */,
+				CC69BCED1D3CCD5C00AD6C6B /* Assets.xcassets */,
+				CC69BCEF1D3CCD5C00AD6C6B /* LaunchScreen.storyboard */,
+				CC69BCF21D3CCD5C00AD6C6B /* Info.plist */,
+				CC69BCE11D3CCD5C00AD6C6B /* Supporting Files */,
+				CC69BCF81D3CD51700AD6C6B /* MyButton.h */,
+				CC69BCF91D3CD51700AD6C6B /* MyButton.m */,
+			);
+			path = "02触摸结合其他控件使用";
+			sourceTree = "<group>";
+		};
+		CC69BCE11D3CCD5C00AD6C6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC69BCE21D3CCD5C00AD6C6B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC69BCDD1D3CCD5C00AD6C6B /* 02触摸结合其他控件使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC69BCF51D3CCD5C00AD6C6B /* Build configuration list for PBXNativeTarget "02触摸结合其他控件使用" */;
+			buildPhases = (
+				CC69BCDA1D3CCD5C00AD6C6B /* Sources */,
+				CC69BCDB1D3CCD5C00AD6C6B /* Frameworks */,
+				CC69BCDC1D3CCD5C00AD6C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02触摸结合其他控件使用";
+			productName = "02触摸结合其他控件使用";
+			productReference = CC69BCDE1D3CCD5C00AD6C6B /* 02触摸结合其他控件使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC69BCD61D3CCD5C00AD6C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC69BCDD1D3CCD5C00AD6C6B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CC69BCD91D3CCD5C00AD6C6B /* Build configuration list for PBXProject "02触摸结合其他控件使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC69BCD51D3CCD5C00AD6C6B;
+			productRefGroup = CC69BCDF1D3CCD5C00AD6C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC69BCDD1D3CCD5C00AD6C6B /* 02触摸结合其他控件使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC69BCDC1D3CCD5C00AD6C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC69BCF11D3CCD5C00AD6C6B /* LaunchScreen.storyboard in Resources */,
+				CC69BCEE1D3CCD5C00AD6C6B /* Assets.xcassets in Resources */,
+				CC69BCEC1D3CCD5C00AD6C6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC69BCDA1D3CCD5C00AD6C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC69BCE91D3CCD5C00AD6C6B /* ViewController.m in Sources */,
+				CC69BCE61D3CCD5C00AD6C6B /* AppDelegate.m in Sources */,
+				CC69BCE31D3CCD5C00AD6C6B /* main.m in Sources */,
+				CC69BCFA1D3CD51700AD6C6B /* MyButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC69BCEA1D3CCD5C00AD6C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC69BCEB1D3CCD5C00AD6C6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC69BCEF1D3CCD5C00AD6C6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC69BCF01D3CCD5C00AD6C6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC69BCF31D3CCD5C00AD6C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC69BCF41D3CCD5C00AD6C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC69BCF61D3CCD5C00AD6C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02触摸结合其他控件使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.-2----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC69BCF71D3CCD5C00AD6C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02触摸结合其他控件使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.-2----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC69BCD91D3CCD5C00AD6C6B /* Build configuration list for PBXProject "02触摸结合其他控件使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC69BCF31D3CCD5C00AD6C6B /* Debug */,
+				CC69BCF41D3CCD5C00AD6C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC69BCF51D3CCD5C00AD6C6B /* Build configuration list for PBXNativeTarget "02触摸结合其他控件使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC69BCF61D3CCD5C00AD6C6B /* Debug */,
+				CC69BCF71D3CCD5C00AD6C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC69BCD61D3CCD5C00AD6C6B /* Project object */;
+}

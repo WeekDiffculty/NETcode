@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x9752;&#x4e91;&#x5fae;&#x535a;/Classes/Login/QYLoginViewController.m"
+            timestampString = "491797834.260025"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "-getAccessToekenRequest:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x9752;&#x4e91;&#x5fae;&#x535a;/Classes/Login/QYLoginViewController.m"
+            timestampString = "491796019.647865"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-getAccessToekenRequest:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x9752;&#x4e91;&#x5fae;&#x535a;/Classes/Login/Modal/QYAccessToken.m"
+            timestampString = "492418758.427555"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "-presistenceData"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x9752;&#x4e91;&#x5fae;&#x535a;/Classes/Login/Modal/QYAccessToken.m"
+            timestampString = "492418767.641678"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "-encodeWithCoder:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x9752;&#x4e91;&#x5fae;&#x535a;/Classes/Request/QYRequestManager.m"
+            timestampString = "492422392.431357"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "-repostMessage:Status:sucess:failure:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x9752;&#x4e91;&#x5fae;&#x535a;/Classes/Request/QYRequestManager.m"
+            timestampString = "492422392.431357"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "-repostMessage:Status:sucess:failure:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x9752;&#x4e91;&#x5fae;&#x535a;/Classes/Request/QYRequestManager.m"
+            timestampString = "492427116.749028"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "-addMessage:Content:sucess:failure:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[QYRequestManager addMessage:Content:sucess:failure:]"
+                  moduleName = "&#x9752;&#x4e91;&#x5fae;&#x535a;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qingyun/Desktop/Code1605/Code/%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE--Demo/20160809/02%E9%9D%92%E4%BA%91%E5%BE%AE%E5%8D%9A-fmdb%E7%BB%83%E4%B9%A0/%E9%9D%92%E4%BA%91%E5%BE%AE%E5%8D%9A/Classes/Request/QYRequestManager.m"
+                  timestampString = "492427239.690082"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "719">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__54-[QYRequestManager addMessage:Content:sucess:failure:]_block_invoke"
+                  moduleName = "&#x9752;&#x4e91;&#x5fae;&#x535a;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qingyun/Desktop/Code1605/Code/%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE--Demo/20160809/02%E9%9D%92%E4%BA%91%E5%BE%AE%E5%8D%9A-fmdb%E7%BB%83%E4%B9%A0/%E9%9D%92%E4%BA%91%E5%BE%AE%E5%8D%9A/Classes/Request/QYRequestManager.m"
+                  timestampString = "492427239.690205"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__54-[QYRequestManager addMessage:Content:sucess:failure:]_block_invoke_2"
+                  moduleName = "&#x9752;&#x4e91;&#x5fae;&#x535a;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qingyun/Desktop/Code1605/Code/%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE--Demo/20160809/02%E9%9D%92%E4%BA%91%E5%BE%AE%E5%8D%9A-fmdb%E7%BB%83%E4%B9%A0/%E9%9D%92%E4%BA%91%E5%BE%AE%E5%8D%9A/Classes/Request/QYRequestManager.m"
+                  timestampString = "492427239.690308"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC225BAE1D581C570039C935 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC225BAD1D581C570039C935 /* main.m */; };
+		CC225BB11D581C570039C935 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC225BB01D581C570039C935 /* AppDelegate.m */; };
+		CC225BB41D581C570039C935 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC225BB31D581C570039C935 /* ViewController.m */; };
+		CC225BB71D581C570039C935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC225BB51D581C570039C935 /* Main.storyboard */; };
+		CC225BB91D581C570039C935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC225BB81D581C570039C935 /* Assets.xcassets */; };
+		CC225BBC1D581C570039C935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC225BBA1D581C570039C935 /* LaunchScreen.storyboard */; };
+		CC225BC51D581E2F0039C935 /* InserTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC225BC41D581E2F0039C935 /* InserTViewController.m */; };
+		CC225BC81D581F1B0039C935 /* StudentModal.m in Sources */ = {isa = PBXBuildFile; fileRef = CC225BC71D581F1B0039C935 /* StudentModal.m */; };
+		CC225BCC1D5820CC0039C935 /* AbstractDb.m in Sources */ = {isa = PBXBuildFile; fileRef = CC225BCB1D5820CC0039C935 /* AbstractDb.m */; };
+		CC225BCF1D5820E10039C935 /* StudentInfoDb.m in Sources */ = {isa = PBXBuildFile; fileRef = CC225BCE1D5820E10039C935 /* StudentInfoDb.m */; };
+		CC225BD21D5835540039C935 /* QueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC225BD11D5835540039C935 /* QueryViewController.m */; };
+		CC225BD51D5837930039C935 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC225BD41D5837930039C935 /* CustomCell.m */; };
+		CF40D3B2CF007E7A2D777310 /* libPods-FMDB的操作.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A906DAB36E2C4BC7988E68A /* libPods-FMDB的操作.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A906DAB36E2C4BC7988E68A /* libPods-FMDB的操作.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMDB的操作.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA7A5BAD4C7A65E53A652D7 /* Pods-FMDB的操作.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB的操作.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB的操作/Pods-FMDB的操作.release.xcconfig"; sourceTree = "<group>"; };
+		CC225BA91D581C560039C935 /* FMDB的操作.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FMDB的操作.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC225BAD1D581C570039C935 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC225BAF1D581C570039C935 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC225BB01D581C570039C935 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC225BB21D581C570039C935 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC225BB31D581C570039C935 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC225BB61D581C570039C935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC225BB81D581C570039C935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC225BBB1D581C570039C935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC225BBD1D581C570039C935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC225BC31D581E2F0039C935 /* InserTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InserTViewController.h; sourceTree = "<group>"; };
+		CC225BC41D581E2F0039C935 /* InserTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InserTViewController.m; sourceTree = "<group>"; };
+		CC225BC61D581F1B0039C935 /* StudentModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModal.h; sourceTree = "<group>"; };
+		CC225BC71D581F1B0039C935 /* StudentModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentModal.m; sourceTree = "<group>"; };
+		CC225BCA1D5820CC0039C935 /* AbstractDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDb.h; sourceTree = "<group>"; };
+		CC225BCB1D5820CC0039C935 /* AbstractDb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractDb.m; sourceTree = "<group>"; };
+		CC225BCD1D5820E10039C935 /* StudentInfoDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentInfoDb.h; sourceTree = "<group>"; };
+		CC225BCE1D5820E10039C935 /* StudentInfoDb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentInfoDb.m; sourceTree = "<group>"; };
+		CC225BD01D5835540039C935 /* QueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryViewController.h; sourceTree = "<group>"; };
+		CC225BD11D5835540039C935 /* QueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryViewController.m; sourceTree = "<group>"; };
+		CC225BD31D5837930039C935 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		CC225BD41D5837930039C935 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		DD0590AA8751CEA0788A1E17 /* Pods-FMDB的操作.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDB的操作.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMDB的操作/Pods-FMDB的操作.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC225BA61D581C560039C935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF40D3B2CF007E7A2D777310 /* libPods-FMDB的操作.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F31D91279E4FE6F61C5A8DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A906DAB36E2C4BC7988E68A /* libPods-FMDB的操作.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B31E0B502E1789E995F6A3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD0590AA8751CEA0788A1E17 /* Pods-FMDB的操作.debug.xcconfig */,
+				5AA7A5BAD4C7A65E53A652D7 /* Pods-FMDB的操作.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC225BA01D581C550039C935 = {
+			isa = PBXGroup;
+			children = (
+				CC225BAB1D581C560039C935 /* FMDB的操作 */,
+				CC225BAA1D581C560039C935 /* Products */,
+				6B31E0B502E1789E995F6A3D /* Pods */,
+				3F31D91279E4FE6F61C5A8DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC225BAA1D581C560039C935 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC225BA91D581C560039C935 /* FMDB的操作.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC225BAB1D581C560039C935 /* FMDB的操作 */ = {
+			isa = PBXGroup;
+			children = (
+				CC225BC91D5820BA0039C935 /* Db */,
+				CC225BAF1D581C570039C935 /* AppDelegate.h */,
+				CC225BB01D581C570039C935 /* AppDelegate.m */,
+				CC225BB21D581C570039C935 /* ViewController.h */,
+				CC225BB31D581C570039C935 /* ViewController.m */,
+				CC225BB51D581C570039C935 /* Main.storyboard */,
+				CC225BB81D581C570039C935 /* Assets.xcassets */,
+				CC225BBA1D581C570039C935 /* LaunchScreen.storyboard */,
+				CC225BBD1D581C570039C935 /* Info.plist */,
+				CC225BAC1D581C570039C935 /* Supporting Files */,
+				CC225BC31D581E2F0039C935 /* InserTViewController.h */,
+				CC225BC41D581E2F0039C935 /* InserTViewController.m */,
+				CC225BC61D581F1B0039C935 /* StudentModal.h */,
+				CC225BC71D581F1B0039C935 /* StudentModal.m */,
+				CC225BD01D5835540039C935 /* QueryViewController.h */,
+				CC225BD11D5835540039C935 /* QueryViewController.m */,
+				CC225BD31D5837930039C935 /* CustomCell.h */,
+				CC225BD41D5837930039C935 /* CustomCell.m */,
+			);
+			path = "FMDB的操作";
+			sourceTree = "<group>";
+		};
+		CC225BAC1D581C570039C935 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC225BAD1D581C570039C935 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC225BC91D5820BA0039C935 /* Db */ = {
+			isa = PBXGroup;
+			children = (
+				CC225BCA1D5820CC0039C935 /* AbstractDb.h */,
+				CC225BCB1D5820CC0039C935 /* AbstractDb.m */,
+				CC225BCD1D5820E10039C935 /* StudentInfoDb.h */,
+				CC225BCE1D5820E10039C935 /* StudentInfoDb.m */,
+			);
+			path = Db;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC225BA81D581C560039C935 /* FMDB的操作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC225BC01D581C570039C935 /* Build configuration list for PBXNativeTarget "FMDB的操作" */;
+			buildPhases = (
+				023319869E313574796563B1 /* [CP] Check Pods Manifest.lock */,
+				CC225BA51D581C560039C935 /* Sources */,
+				CC225BA61D581C560039C935 /* Frameworks */,
+				CC225BA71D581C560039C935 /* Resources */,
+				54B8149BEBBD59307E152E76 /* [CP] Embed Pods Frameworks */,
+				22F205260D099DBD5A862FB2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FMDB的操作";
+			productName = "FMDB的操作";
+			productReference = CC225BA91D581C560039C935 /* FMDB的操作.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC225BA11D581C550039C935 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC225BA81D581C560039C935 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = NERG7QYPPA;
+					};
+				};
+			};
+			buildConfigurationList = CC225BA41D581C550039C935 /* Build configuration list for PBXProject "FMDB的操作" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC225BA01D581C550039C935;
+			productRefGroup = CC225BAA1D581C560039C935 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC225BA81D581C560039C935 /* FMDB的操作 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC225BA71D581C560039C935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC225BBC1D581C570039C935 /* LaunchScreen.storyboard in Resources */,
+				CC225BB91D581C570039C935 /* Assets.xcassets in Resources */,
+				CC225BB71D581C570039C935 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		023319869E313574796563B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22F205260D099DBD5A862FB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDB的操作/Pods-FMDB的操作-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54B8149BEBBD59307E152E76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMDB的操作/Pods-FMDB的操作-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC225BA51D581C560039C935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC225BCF1D5820E10039C935 /* StudentInfoDb.m in Sources */,
+				CC225BB41D581C570039C935 /* ViewController.m in Sources */,
+				CC225BCC1D5820CC0039C935 /* AbstractDb.m in Sources */,
+				CC225BC51D581E2F0039C935 /* InserTViewController.m in Sources */,
+				CC225BC81D581F1B0039C935 /* StudentModal.m in Sources */,
+				CC225BD21D5835540039C935 /* QueryViewController.m in Sources */,
+				CC225BB11D581C570039C935 /* AppDelegate.m in Sources */,
+				CC225BAE1D581C570039C935 /* main.m in Sources */,
+				CC225BD51D5837930039C935 /* CustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC225BB51D581C570039C935 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC225BB61D581C570039C935 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC225BBA1D581C570039C935 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC225BBB1D581C570039C935 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC225BBE1D581C570039C935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC225BBF1D581C570039C935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC225BC11D581C570039C935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0590AA8751CEA0788A1E17 /* Pods-FMDB的操作.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FMDB的操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.FMDB---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC225BC21D581C570039C935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA7A5BAD4C7A65E53A652D7 /* Pods-FMDB的操作.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FMDB的操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.FMDB---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC225BA41D581C550039C935 /* Build configuration list for PBXProject "FMDB的操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC225BBE1D581C570039C935 /* Debug */,
+				CC225BBF1D581C570039C935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC225BC01D581C570039C935 /* Build configuration list for PBXNativeTarget "FMDB的操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC225BC11D581C570039C935 /* Debug */,
+				CC225BC21D581C570039C935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC225BA11D581C550039C935 /* Project object */;
+}
